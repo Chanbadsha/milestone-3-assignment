@@ -27,6 +27,7 @@
             colors: {
               clifford: "#da373d",
               "btn-bg": "rgba(171, 239, 95, 1)",
+              'primary-bg':"#f8f9fa",
             },
           },
         },
@@ -43,14 +44,15 @@
     font-family: "Manrope", system-ui;
 
 }
+
     </style>
   </head>
-  <body class="font-manrope bg-[rgba(247,247,247,0.5)]">
+  <body class="font-manrope bg-primary-bg ">
     <!-- Header Css -->
     <header class="container mx-auto ">
       <!-- Navbar Css -->
       <nav>
-          <div class="navbar">
+          <div class="navbar bg-primary-bg">
             <!-- Left Nav Content -->
           <div class=" flex-1 justify-between ">
             <div class="dropdown order-2">
@@ -124,19 +126,47 @@
                     d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
               </div>
+           <div>
             <a class="btn bg-btn-bg hidden lg:flex font-bold text-xl  rounded-3xl"
-              >Book Consult
-              <span
-                ><i
-                  class="fa-solid fa-arrow-right bg-black text-white p-[10px] rounded-full -rotate-45"
-                ></i></span
-            ></a>
+            >Book Consult
+            <span
+              ><i
+                class="fa-solid fa-arrow-right bg-black text-white p-[10px] rounded-full -rotate-45"
+              ></i></span
+          ></a>
+           </div>
           </div>
         </div>
       </nav>
 
       <!-- Header Hero Section -->
+      <div class="  ">
+     
+          <img
+            src="./assets/banner.png"
+            alt="Shoes"
+            class="rounded-xl w-1/2 mx-auto h-auto" />
 
+        <div class=" card-body  items-center text-center px-5">
+          <h2 class="card-title text-xl  lg:text-6xl font-extrabold lg:w-2/3 items-center">A barn house of this design has a striking appearance</h2>
+          <p class="lg:w-3/4 mx-auto my-5">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+          <div class="card-actions flex ">
+            <div class="border border-green-500 bg-[#a7f05ea8]  rounded-3xl">
+                <a class="btn border-none flex w-full   bg-[#a7f05e8c] font-bold text-xl   rounded-3xl"
+                >View Details 
+                <span
+                  ><i
+                    class="fa-solid fa-arrow-right  text-black bg-[#92fa2b] p-[10px] rounded-full -rotate-45"
+                  ></i></span
+              ></a>
+               </div>
+          </div>
+        </div>
+      </div>
     </header>
+    <!-- Main Css -->
+     <main>
+      
+     </main>
   </body>
 </html>
