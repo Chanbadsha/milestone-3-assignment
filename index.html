@@ -25,9 +25,13 @@
         theme: {
           extend: {
             colors: {
-              clifford: "#da373d",
+              card_one: 'rgba(231, 193, 211, 1)',
+              card_two: 'rgba(239, 218, 110, 1)',
+              card_three: 'rgba(164, 218, 195, 1)',
+              card_four: 'rgba(119, 170, 234, 1)',
               "btn-bg": "rgba(171, 239, 95, 1)",
               "primary-bg": "#f8f9fa",
+              seconadry: "#494949",
             },
           },
         },
@@ -190,7 +194,7 @@
             class="items-center py-20 flex flex-col gap-6 lg:flex-row justify-between container mx-auto"
           >
             <div class="flex-1 space-y-2 xl:space-y-3">
-              <div class="">
+              <div class="text-center lg:text-left">
                 <a class="btn bg-white font-bold xl:text-xl rounded-3xl">
                   <span
                     ><i class="fa-solid fa-arrow-right rounded-full"></i
@@ -271,7 +275,7 @@
       </section>
 
       <!-- Client Service Status -->
-      <section class="client_service_info bg-base-200  pb-10">
+      <section class="client_service_info bg-base-200 pb-10">
         <div
           class="stats stats-vertical lg:stats-horizontal w-11/12 xl:w-full container text-center m-auto shadow border grid md:grid-cols-2 lg:grid-cols-4 py-3"
         >
@@ -403,7 +407,96 @@
       </section>
 
       <!-- Work Process Section -->
-     
+
+      <section class="work_process_section bg-base-200 ">
+        <div class="flex flex-col lg:pt-16 items-center container gap-5 mx-auto">
+          <!-- Work Section Btn -->
+          <div>
+            <a class="btn bg-white font-bold rounded-3xl">
+              <span><i class="fa-solid fa-arrow-right rounded-full"></i></span>
+              How we works
+            </a>
+          </div>
+          <!-- Work Section Content -->
+          <div class="text-center space-y-2">
+          
+              <h1 class="text-3xl lg:text-5xl  xl:text-6xl font-extrabold">Our Works Process</h1>
+              <p class="lg:w-3/4 px-3 mx-auto ">
+                Provident cupiditate voluptatem et in. Quaerat fugiat ut
+                assumenda excepturi exercitationem quasi. In deleniti eaque aut
+                repudiandae et a id nisi.
+              </p>
+          </div>
+          <!-- Work section Card -->
+           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 xl:gap-8 p-4">
+            <!-- Card 1 -->
+            <div class="card bg-card_one gap-3 p-3 xl:p-6 shadow-xl">
+              <div>
+                <img
+                  src="./assets/concept.png"
+                  alt="Shoes" />
+              </div>
+              <div class="space-y-1">
+                <h2 class="card-title text-xl xl:text-2xl font-extrabold">
+                  Concept
+                </h2>
+                <p>We connect to clients with properties, handle listings, tenant screening, leases, and offer ongoing support for a smooth experience</p>
+            
+              </div>
+            </div>
+         
+            <!-- Card 2 -->
+            <div class="card bg-card_one  gap-3 p-3 xl:p-6 shadow-xl">
+              <div>
+                <img
+                  src="./assets/concept.png"
+                  alt="Shoes" />
+              </div>
+              <div class="space-y-1">
+                <h2 class="card-title text-xl xl:text-2xl font-extrabold">
+                  Design Process
+                </h2>
+                <p>Our design process ensures efficient property management, maximizing rental income, tenant satisfaction, and stress-free ownership.</p>
+            
+              </div>
+            </div>
+         
+            <!-- Card 3 -->
+            <div class="card bg-card_one  gap-3 p-3 xl:p-6 shadow-xl">
+              <div>
+                <img
+                  src="./assets/concept.png"
+                  alt="Shoes" />
+              </div>
+              <div class="space-y-1">
+                <h2 class="card-title text-xl xl:text-2xl font-extrabold">
+                  Supervision
+                </h2>
+                <p>Our supervision ensures property safety, timely maintenance, tenant satisfaction, and maximizes their rental income efficiently</p>
+            
+              </div>
+            </div>
+         
+            <!-- Card 4 -->
+            <div class="card bg-card_one  gap-3 p-3 xl:p-6 shadow-xl">
+              <div>
+                <img
+                  src="./assets/concept.png"
+                  alt="Shoes" />
+              </div>
+              <div class="space-y-1">
+                <h2 class="card-title text-xl xl:text-2xl font-extrabold">
+                  Budget Planning
+                </h2>
+                <p>Our effective budget planning ensures optimal property management, covering costs like maintenance and marketing, while maximizing rental income and profitability</p>
+            
+              </div>
+            </div>
+         
+
+        </div>
+  
+      </section>
     </main>
   </body>
 </html>
