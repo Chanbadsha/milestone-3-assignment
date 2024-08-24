@@ -16,6 +16,9 @@
       tailwind.config = {
         theme: {
           extend: {
+            backgroundImage: {
+        'bg-img': "url('assets/bg.jpg')",
+      },
             colors: {
               card_one: 'rgba(231, 193, 211, 1)',
               card_two: 'rgba(239, 218, 110, 1)',
@@ -24,6 +27,7 @@
               "btn-bg": "rgba(171, 239, 95, 1)",
               "primary-bg": "#f8f9fa",
               seconadry: "#494949",
+            
             },
           },
         },
@@ -40,7 +44,7 @@
   </head>
   <body class="font-manrope bg-primary-bg">
     <!-- Header Css -->
-    <header class="container mx-auto">
+    <header class="container mx-auto bg-hero-pattern bg-contain">
       <!-- Navbar Css -->
       <nav>
         <div class="navbar bg-primary-bg">
@@ -315,7 +319,7 @@
         <div class="portfolio_body px-5 container mx-auto ">
           <div class="grid col-span-1 md:col-span-2 lg:grid-cols-4 gap-5 md:gap-6  lg:gap-10">
             <!-- Card 1 -->
-            <div class="  lg:h-[220px]  px-5 py-5 gap-5 border border-gray-200 rounded-2xl bg-white  col-span-1 md:col-span-2 lg:col-span-3 flex flex-col md:flex-row">
+            <div class="  xl:h-[220px]  px-5 py-5 gap-5 border border-gray-200 rounded-2xl bg-white  col-span-1 md:col-span-2 lg:col-span-3 flex flex-col md:flex-row">
               <!-- card img -->
               <div class="">
                 <img src="./assets/img1.png" class="h-full w-full" alt="">
@@ -331,19 +335,19 @@
               </div>
             </div>
             <!-- Card 2 -->
-            <div class=" lg:h-[220px] bg-white col-span-1 px-5 py-5 gap-5 border border-gray-200 rounded-2xl">
+            <div class=" xl:h-[220px] bg-white col-span-1 px-5 py-5 gap-5 border border-gray-200 rounded-2xl">
               <!-- card img -->
               <div class="h-full">
                 <img src="./assets/img2.png" class="h-full w-full" alt="">
               </div>
             </div>
             <!-- Card 3 -->
-            <div class=" lg:h-[220px] bg-white px-5 py-5 gap-5 border border-gray-200 rounded-2xl col-span-1">
+            <div class=" xl:h-[220px] bg-white px-5 py-5 gap-5 border border-gray-200 rounded-2xl col-span-1">
               <!-- card img -->
               <img src="./assets/img5.png" class="w-full h-full" alt="">
             </div>
             <!-- Card 4 -->
-            <div class=" lg:h-[220px] bg-white px-5 py-5 gap-5 border border-gray-200 rounded-2xl col-span-1 flex-col md:flex-row md:col-span-2 flex">
+            <div class=" xl:h-[220px] bg-white px-5 py-5 gap-5 border border-gray-200 rounded-2xl col-span-1 flex-col md:flex-row md:col-span-2 flex">
               <!-- card img -->
               <div class="">
                 <img src="./assets/img4.png" class="h-full w-full" alt="">
@@ -359,11 +363,11 @@
               </div>
             </div>
             <!-- Card 5 -->
-            <div class=" flex lg:hidden lg:h-[220px] bg-white px-5 py-5 gap-5 border border-gray-200 rounded-2xl col-span-1 ">
+            <div class=" flex lg:hidden xl:h-[220px] bg-white px-5 py-5 gap-5 border border-gray-200 rounded-2xl col-span-1 ">
               <img src="./assets/img3.png" class="w-full h-full" alt="">
             </div>
             <!-- Card 6 -->
-            <div class=" lg:h-[220px] bg-white px-5 py-5 gap-5 border border-gray-200 rounded-2xl col-span-1 ">
+            <div class=" xl:h-[220px] bg-white px-5 py-5 gap-5 border border-gray-200 rounded-2xl col-span-1 ">
               <img src="./assets/img5.png" class="w-full h-full" alt="">
             </div>
           </div>
@@ -371,7 +375,7 @@
       </section>
 
       <!-- Article Section -->
-       <section class="article_section py-10 lg:py-20">
+       <section class="article_section py-10 lg:py-20 ;       ">
          <!-- Article Section Header -->
          <div class="portfolio_header flex items-center flex-col space-y-6 ">
           <!-- Article Section Btn -->
@@ -402,9 +406,9 @@
                 <div class="text-sm"><span class="border rounded-full inline-block w-6 h-6 text-center border-gray-500"><i class="fa-regular fa-user text-xs"></i></span> By Admin</div>
               </div>
               <h2 class="card-title text-xl font-bold mt-2">
-                How to choose the furniture right  of your home.
+                How to Find Your Perfect Rental Home: Tips and Tricks.
               </h2>
-              <p class="text-gray-500 my-2">The barn house captivates with its blend of rustic charm and modern. </p>
+              <p class="text-gray-500 my-2">Explore essential tips for finding the ideal rental property, from setting a budget to inspecting potential homes. This guide will help you navigate the rental market with ease and confidence.</p>
               <button class="font-bold  mr-2">Read More </button>
               <span>
                 <i class="fa-solid fa-arrow-right bg-btn-bg  text-black p-[5px]  rounded-full   -rotate-45"></i>
@@ -424,9 +428,9 @@
                 <div class="text-sm"><span class="border rounded-full inline-block w-6 h-6 text-center border-gray-500"><i class="fa-regular fa-user text-xs"></i></span> By Admin</div>
               </div>
               <h2 class="card-title text-xl font-bold mt-2">
-                How to choose the furniture right  of your home.
+                Top 5 Benefits of Renting Over Buying a Home
               </h2>
-              <p class="text-gray-500 my-2">The barn house captivates with its blend of rustic charm and modern. </p>
+              <p class="text-gray-500 my-2">Renting offers flexibility and lower upfront costs. Discover the key advantages of renting a home, especially in today's ever-changing real estate market, and see if it's the right choice for you.</p>
               <button class="font-bold  mr-2">Read More </button>
               <span>
                 <i class="fa-solid fa-arrow-right bg-btn-bg  text-black p-[5px]  rounded-full   -rotate-45"></i>
@@ -446,9 +450,9 @@
                 <div class="text-sm"><span class="border rounded-full inline-block w-6 h-6 text-center border-gray-500"><i class="fa-regular fa-user text-xs"></i></span> By Admin</div>
               </div>
               <h2 class="card-title text-xl font-bold mt-2">
-                How to choose the furniture right  of your home.
+                A Comprehensive Guide to Managing Rental Payments and Deposits.
               </h2>
-              <p class="text-gray-500 my-2">The barn house captivates with its blend of rustic charm and modern. </p>
+              <p class="text-gray-500 my-2">Learn how to handle rental payments, security deposits, and potential disputes with ease. This guide provides practical advice on managing your finances throughout your tenancy. </p>
               <button class="font-bold  mr-2">Read More </button>
               <span>
                 <i class="fa-solid fa-arrow-right bg-btn-bg  text-black p-[5px]  rounded-full   -rotate-45"></i>
@@ -458,6 +462,41 @@
         
          </div>
        </section>
+
+       <!-- Discussion Section -->
+        <section class="discusion_section bg-bg-img bg-cover bg-no-repeat py-10 lg:py-20">
+
+           <!-- Discussion Section Header -->
+         <div class="portfolio_header flex items-center flex-col space-y-6 ">
+          <!-- Discussion Section Btn -->
+          <div>
+            <a class="btn bg-[#d7f7d1] hover:text-black hover:bg-btn-bg font-bold rounded-3xl">
+              <span>
+                <i class="fa-solid fa-arrow-right rounded-full"></i>
+              </span> Let’s Connect </a>
+          </div>
+          <!-- Discusion Section Content -->
+          <div class="text-center space-y-4 lg:space-y-8">
+            <h1 class="text-3xl lg:text-5xl  xl:text-6xl font-extrabold">Let’s Discuss Next Project</h1>
+            <p class="lg:w-3/4 px-3 mx-auto "> "We value your insights! Let’s discuss the next steps to improve our services. Share your feedback, ideas, and suggestions to help us tailor our offerings to better meet your rental needs." </p>
+          </div>
+        </div>
+ <!-- Discussion Section Form -->
+  <form action="" class="discussion_form mx-auto grid grid-cols-1 md:grid-cols-2 max-w-6xl gap-x-5 gap-y-3 p-5 ">
+   <input type="text" placeholder="First Name" class="rounded-3xl h-12 outline-none px-5" >
+   <input type="text" placeholder="Last Name" class="rounded-3xl h-12 outline-none px-5">
+   <input type="number" placeholder="Number" class="rounded-3xl h-12 outline-none px-5">
+   <input type="email" placeholder="Email" class="rounded-3xl h-12 outline-none px-5">
+   <textarea name="" id="" placeholder="Write your message here" class="md:col-span-2  rounded-3xl py-5 h-40 outline-none px-5"></textarea>
+   <div class="md:col-span-2 ">
+    <a class="btn bg-btn-bg  flex font-bold text-xl rounded-3xl h-12 outline-none">Send Mail <span>
+        <i class="fa-solid fa-arrow-right bg-black text-white p-[5px] rounded-full -rotate-45" aria-hidden="true"></i>
+      </span>
+    </a>
+  </div>
+  </form>
+        </section>
     </main>
+    
   </body>
 </html>
