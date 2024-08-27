@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en" data-theme="light" class="scroll-smooth ">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -46,9 +46,9 @@
   </head>
   <body class="font-manrope bg-primary-bg">
     <!-- Header Css -->
-    <header class="container mx-auto bg-hero-pattern bg-contain">
+    <header id="home" class=" container mx-auto bg-hero-pattern bg-contain">
       <!-- Navbar Css -->
-      <nav>
+      <nav class="">
         <div class="navbar bg-primary-bg">
           <!-- Left Nav Content -->
           <div class="flex-1 justify-between">
@@ -85,19 +85,19 @@
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1 text-gray-500 xl:text-[18px]">
               <li>
-                <a>Home</a>
+                <a href="#home">Home</a>
               </li>
               <li>
-                <a>Services</a>
+                <a href="#services">Services</a>
               </li>
               <li>
-                <a>Portfolio</a>
+                <a href="#portfolio">Portfolio</a>
               </li>
               <li>
-                <a>Blogs</a>
+                <a href="#article">Blogs</a>
               </li>
               <li>
-                <a>Contact Us</a>
+                <a href="#discus">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -239,7 +239,7 @@
         </div>
       </section>
       <!-- Work Process Section -->
-      <section class="work_process_section bg-base-200  pb-6 lg:pb-28 ">
+      <section id="services" class="work_process_section bg-base-200  pb-6 lg:pb-28 ">
         <div class="flex flex-col lg:pt-16 items-center container gap-5 mx-auto">
           <!-- Work Section Btn -->
           <div>
@@ -300,7 +300,7 @@
         <!-- Our Agent Section -->
 <section class="agent_section container mx-auto py-10 lg:py-20 ">
     <!-- Agent Section Header -->
-    <div class="portfolio_header flex items-center flex-col space-y-6 mb-12  ">
+    <div class="agent_header flex items-center flex-col space-y-6 mb-12  ">
       <!-- Agent Section Btn -->
       <div>
         <a class="btn bg-[#d7f7d1] hover:text-black hover:bg-btn-bg font-bold rounded-3xl">
@@ -538,7 +538,7 @@
 
 </section>
       <!-- Portfolio Section -->
-      <section class="portfolio_section bg-base-200 lg:bg-white   py-10 lg:pt-20">
+      <section id="portfolio" class="portfolio_section bg-base-200 lg:bg-white   py-10 lg:pt-20">
         <!-- Portfolio Section Header -->
         <div class="portfolio_header flex items-center flex-col space-y-6 mb-12  ">
           <!-- Portfolio Section Btn -->
@@ -614,7 +614,7 @@
       </section>
 
       <!-- Article Section -->
-       <section class="article_section py-10 lg:py-20 ;       ">
+       <section id="article" class="article_section py-10 lg:py-20 ;       ">
          <!-- Article Section Header -->
          <div class="portfolio_header flex items-center flex-col space-y-6 mb-12 ">
           <!-- Article Section Btn -->
@@ -703,10 +703,10 @@
        </section>
 
        <!-- Discussion Section -->
-        <section class="discusion_section bg-bg-img bg-cover bg-no-repeat py-10 lg:py-20">
+        <section id="discus" class="discusion_section bg-bg-img bg-cover bg-no-repeat py-10 lg:py-20">
 
            <!-- Discussion Section Header -->
-         <div class="portfolio_header flex items-center flex-col space-y-6 ">
+         <div  class="portfolio_header flex items-center flex-col space-y-6 ">
           <!-- Discussion Section Btn -->
           <div>
             <a class="btn bg-[#d7f7d1] hover:text-black hover:bg-btn-bg font-bold rounded-3xl">
@@ -721,7 +721,7 @@
           </div>
         </div>
  <!-- Discussion Section Form -->
-  <form action="" class="discussion_form mx-auto grid grid-cols-1 md:grid-cols-2 max-w-6xl gap-x-5 gap-y-3 p-5 ">
+  <form  action="" class="discussion_form mx-auto grid grid-cols-1 md:grid-cols-2 max-w-6xl gap-x-5 gap-y-3 p-5 ">
    <input type="text" placeholder="First Name" class="rounded-3xl h-12 outline-none px-5" >
    <input type="text" placeholder="Last Name" class="rounded-3xl h-12 outline-none px-5">
    <input type="number" placeholder="Number" class="rounded-3xl h-12 outline-none px-5">
@@ -738,11 +738,11 @@
     </main>
 <!-- Footer section -->
   <footer class="footer footer-center py-12 gap-y-5 bg-black text-white text-base-content rounded p-5 ">
-    <div class="flex items-center btn btn-ghost">
+    <div class="flex items-center btn btn-ghost hover:bg-white hover:text-black ">
       <span>
-        <i class="fa-solid fa-arrow-right text-black bg-btn-bg p-[10px] rounded-full -rotate-45" aria-hidden="true"></i>
+        <i class="fa-solid fa-arrow-right  text-black bg-btn-bg p-[10px] rounded-full -rotate-45" aria-hidden="true"></i>
       </span>
-      <a class="text-2xl font-bold md:text-4xl">Rinterio</a>
+      <a class="text-2xl font-bold md:text-4xl" >Rinterio</a>
     </div>
     <aside>
       <p class="w-full xl:w-2/4 mx-auto text-gray-400">
@@ -753,19 +753,19 @@
        <div class="navbar-center flex">
         <ul class=" flex  gap-4 md:gap-12  lg:gap-24  text-gray-500 text-sm xl:text-[18px]">
           <li>
-            <a>Home</a>
+            <a href="#home" class="hover:text-white">Home</a>
           </li>
           <li>
-            <a>Services</a>
+            <a href="#services" class="hover:text-white">Services</a>
           </li>
           <li>
-            <a>Portfolio</a>
+            <a href="#portfolio" class="hover:text-white">Portfolio</a>
           </li>
           <li>
-            <a>Blog</a>
+            <a href="#article" class="hover:text-white">Blogs</a>
           </li>
           <li>
-            <a>Contact Us</a>
+            <a href="#discus" class="hover:text-white">Contact Us</a>
           </li>
         </ul>
       </div>
