@@ -39,4 +39,4 @@ Rinterio is a real estate services platform offering property listings, agent pr
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository_url>
+   git clone [<repository_url>](https://github.com/Chanbadsha/milestone-3-assignment.git)
